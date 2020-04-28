@@ -1,0 +1,21 @@
+Package: BucksM
+Type: Package
+Title: Impute missing vaules using Buck's Method
+Version: 0.0.0.9
+Suggests: mice (>= 3.8.0)
+Depends: R (>= 3.1.0)
+Authors@R: as.person(c(
+    "Alexandria Rhoads <acrhoads7@gmail.com> [aut, cre]", 
+    "Siyi Li <siyi_li@uri.edu> [aut]"
+  ))
+Maintainer: The package maintainer <acrhoads7@gmail.com>
+Description: The BucksM package implements Buck's Method (S.F. Buck, 1960). 
+    An extension of conditional mean imputation for multiple variable datasets.
+    This package creates imputations for missing data via linear regression by
+    missing group. Three functions determine missing pattern for dataset, 
+    calculate and predict defined linear model, and returns filled-in vaules for 
+    selected missing groups.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
