@@ -77,6 +77,6 @@ return(p1)
 
 buck.im <- function(model.pred=as.vector(model.pred), data.output=as.matrix(data), m=as.integer(m), n=as.integer(n)){
   data.output[,m] <-ifelse(is.na(data.output[,m]) & (data.output[,ncol(data.output)]==n), model.pred, data.output[,m])
-  return(data[,m])
+  return(data.output[,m])
 }
 
