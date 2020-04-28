@@ -6,7 +6,7 @@
 \usage{
 buck.im(
   model.pred = as.vector(model.pred),
-  data.output = as.matrix(data),
+  data = as.matrix(data),
   m = as.integer(m),
   n = as.integer(n)
 )
@@ -14,7 +14,7 @@ buck.im(
 \arguments{
 \item{model.pred}{a vector, model prediction output from function model}
 
-\item{data.output}{a matrix, datset from function miss.group}
+\item{data}{a matrix, datset from function miss.group}
 
 \item{m}{an integer, variable to impute - enter as column number}
 
