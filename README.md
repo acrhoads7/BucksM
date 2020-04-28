@@ -33,7 +33,7 @@ library(BucksM)
 
 ## Versioning
 
-We use [SILKSVN](https://sliksvn.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/acrhoads7/bioequival/tags). 
+We use [git] for versioning. For the versions available, see the [tags on this repository](https://github.com/acrhoads7/bioequival/tags). 
 
 ## Authors
 
